@@ -146,26 +146,16 @@ export const people2: Person[] = [
             linkedin: "https://www.linkedin.com/in/shubham-jha-a37a49263/",
         },
     },
-    {
-        id: 8,
-        image_source:
-            "https://res.cloudinary.com/dmwkrlwik/image/upload/v1758209858/Rishabh_final_2_toql10_98af6c.jpg",
-        name: "Rishabh Tripathi",
-        position: "PR Head",
-        links: {
-            linkedin: "https://www.linkedin.com/in/rishabh-tripathi-9985aa319/",
-        },
-    },
-    {
-        id: 9,
-        image_source:
-            "https://res.cloudinary.com/dmwkrlwik/image/upload/v1758197080/Niyati_zdq75z_34962e.jpg",
-        name: "Niyati Chugh",
-        position: "Event Management Co-Head",
-        links: {
-            linkedin: "https://www.linkedin.com/in/niyati-chugh-8098a1286/",
-        },
-    },
+    // {
+    //     id: 8,
+    //     image_source:
+    //         "https://res.cloudinary.com/dmwkrlwik/image/upload/v1758209858/Rishabh_final_2_toql10_98af6c.jpg",
+    //     name: "Rishabh Tripathi",
+    //     position: "PR Head",
+    //     links: {
+    //         linkedin: "https://www.linkedin.com/in/rishabh-tripathi-9985aa319/",
+    //     },
+    // },
     {
         id: 10,
         image_source:
@@ -257,6 +247,16 @@ export const peopleFounders: Person[] = [
         position: "Founding Member",
         links: {
             linkedin: "https://www.linkedin.com/in/vidhi-jain-vee27032004/",
+        },
+    },
+    {
+        id: 3,
+        image_source:
+            "https://res.cloudinary.com/dzix52kpi/image/upload/v1764844067/sakshamAggarwal_soe3x1.jpg",
+        name: "Saksham Aggarwal",
+        position: "Founding Member",
+        links: {
+            linkedin: "https://www.linkedin.com/in/saksham-aggarwal-6b9276260",
         },
     },
 ]
@@ -426,13 +426,13 @@ export const executivesData: Department[] = [
     {
         name: "Event Management Executives",
         leads: [
-            {
-                name: "Niyati Chugh",
-                links: {
-                    linkedin:
-                        "https://www.linkedin.com/in/niyati-chugh-8098a1286/",
-                },
-            },
+            // {
+            //     name: "Niyati Chugh",
+            //     links: {
+            //         linkedin:
+            //             "https://www.linkedin.com/in/niyati-chugh-8098a1286/",
+            //     },
+            // },
             {
                 name: "Dhruv Mehra",
                 links: {
@@ -466,7 +466,6 @@ export const executivesData: Department[] = [
             { name: "Arjun Jain", links: { linkedin: "" } },
             { name: "Sidhant Malik", links: { linkedin: "" } },
             { name: "Yatin Kumar", links: { linkedin: "" } },
-            { name: "Tiya Arora", links: { linkedin: "" } },
             { name: "Devansh Malik", links: { linkedin: "" } },
             { name: "Krish Mittal", links: { linkedin: "" } },
             { name: "Aniket Gupta", links: { linkedin: "" } },
@@ -476,13 +475,13 @@ export const executivesData: Department[] = [
     {
         name: "Public Relations Executives",
         leads: [
-            {
-                name: "Rishabh Tripathi",
-                links: {
-                    linkedin:
-                        "https://www.linkedin.com/in/rishabh-tripathi-9985aa319/",
-                },
-            },
+            // {
+            //     name: "Rishabh Tripathi",
+            //     links: {
+            //         linkedin:
+            //             "https://www.linkedin.com/in/rishabh-tripathi-9985aa319/",
+            //     },
+            // },
         ],
         people: [
             { name: "Harshit", links: { linkedin: "" } },
@@ -490,7 +489,6 @@ export const executivesData: Department[] = [
                 name: "Shreya Chaudhary",
                 links: { linkedin: "" },
             },
-            { name: "Pari Goel", links: { linkedin: "" } },
             {
                 name: "Bhavit Anand",
                 links: {
